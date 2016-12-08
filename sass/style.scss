@@ -1,15 +1,62 @@
+// IMPORT FONTOW
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:800');
+
+
+$primary-color: #fff;
+
 body{
   background: url('../img/background.jpg') no-repeat center top fixed;
   background-size: cover;
+  color: $primary-color;
 }
 .register-form{
-  background-color: #fff;
-
+  background-color: rgba(202, 202, 202, 0.82);
+  transform: translateY(50%);
+  padding: 0;
+  // filter: blur(5px);
+  .main-title{
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  ul{
+    li{
+      display: inline-block;
+      list-style: none;
+      img{
+        display: block;
+      }
+    }
+  }
+  .bold{
+    font-weight: 700;
+    font-size: 21px
+  }
+  p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
   input{
     width: 100%;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $primary-color;
     margin: 10px 0;
     padding: 0 10px;
+    background-color: transparent;
+  }
+  button{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    background-color: $primary-color;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: 900;
+    font-size: 21px;
+    border: 0;
   }
 }

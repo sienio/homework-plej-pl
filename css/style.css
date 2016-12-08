@@ -1,17 +1,57 @@
-/* line 1, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Exo+2:800");
+/* line 8, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
 body {
   background: url("../img/background.jpg") no-repeat center top fixed;
-  background-size: cover; }
+  background-size: cover;
+  color: #fff; }
 
-/* line 5, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+/* line 13, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
 .register-form {
-  background-color: #fff; }
-  /* line 8, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+  background-color: rgba(202, 202, 202, 0.82);
+  transform: translateY(50%);
+  padding: 0; }
+  /* line 18, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+  .register-form .main-title {
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px; }
+  /* line 26, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+  .register-form ul li {
+    display: inline-block;
+    list-style: none; }
+    /* line 29, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+    .register-form ul li img {
+      display: block; }
+  /* line 34, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+  .register-form .bold {
+    font-weight: 700;
+    font-size: 21px; }
+  /* line 38, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+  .register-form p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px; }
+  /* line 43, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
   .register-form input {
     width: 100%;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
     margin: 10px 0;
-    padding: 0 10px; }
+    padding: 0 10px;
+    background-color: transparent; }
+  /* line 51, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+  .register-form button {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: 900;
+    font-size: 21px;
+    border: 0; }
 
 /*# sourceMappingURL=style.css.map */
