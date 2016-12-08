@@ -1,5 +1,6 @@
 /* line 1, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
 body {
-  background-color: yellow; }
+  background: url("../img/background.jpg") no-repeat center top fixed;
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */
