@@ -2,6 +2,8 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var sourcemaps = require('gulp-sourcemaps');
 var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
+
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function () {
@@ -22,6 +24,10 @@ gulp.task('sass', function () {
         .pipe(sass({
             outputStyle: 'extended',
             sourceComments: 'map'
+        }))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
         }))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest("./css"))
