@@ -26,8 +26,7 @@ gulp.task('sass', function () {
             sourceComments: 'map'
         }))
         .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
-            cascade: false
+            browsers: ['last 4 versions']
         }))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest("./css"))
