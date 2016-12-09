@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sieński Michał - Zadanie rekrutacyjne Plej.pl</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./css/style.css">
     <!--[if lt IE 9]>
@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="col-lg-12 register-form">
-            <div class="blurred"></div>
+    <div class="register-form">
+        <div class="blurred"></div>
+        <div class="in-progress">
             <h1 class="main-title">Przejdź samego siebie.</h1>
             <ul>
                 <li><img src="/img/ic_01.png" alt=""></li>
@@ -38,7 +38,7 @@
                 <div class="box">
                     <p class="bold">Dołącz do naszej fantastycznej aplikacji, dzięki ktorej znajdziesz fascynujące szlaki turystyczne.
                     </p>
-                    <p>Wyszukujemy szlaki w Polsce, Europie oraz Stanach Zjednoczonych, w naszej bazie mamy ponad <b>
+                    <p>Wyszukujemy szlaki w Polsce Europie oraz Stanach Zjednoczonych, w naszej bazie mamy ponad <b>
                       3000 szlakow</b> o łącznej długości <b>43021 km</b>
                     </p>
                 </div>
@@ -48,8 +48,13 @@
                     <input type="text" placeholder="kraj pochodzenia">
                     <input type="checkbox">
                 </div>
-                <button type="button" name="button">Zarejestruj się</button>
+                <button class="submit-button" type="button" name="submit">Zarejestruj się</button>
             </form>
+        </div>
+        <div class="form-accepted" style="display:none">
+            <img class="logo" src="/img/logo_03.png" alt="Logo">
+            <h1 class="main-title">Dziękujemy za rejestrację</h1>
+            <button type="button" name="button">Zacznij odkrywać szlaki</button>
         </div>
     </div>
 </body>
