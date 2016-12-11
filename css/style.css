@@ -93,14 +93,17 @@ body {
     width: 90%;
     border: none;
     border-bottom: 1px solid #fff;
-    margin: 32px 0 25px 10px;
-    padding: 0 15px;
+    margin: 25px 0 25px 10px;
+    padding: 10px 15px;
     background-color: transparent;
     box-sizing: border-box; }
     /* line 91, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
     .register-form .in-progress input:focus {
-      outline: none; }
-  /* line 96, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+      outline: none;
+      color: black;
+      background-color: white;
+      border-bottom: 1px solid red; }
+  /* line 100, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
   .register-form button {
     font-family: 'Lato', sans-serif;
     width: 100%;
@@ -112,11 +115,11 @@ body {
     font-size: 21px;
     border: 0;
     cursor: pointer; }
-  /* line 109, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+  /* line 113, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
   .register-form .form-accepted .logo {
     display: block;
     margin: 50px auto 0 auto; }
-  /* line 113, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
+  /* line 117, D:/webdev/projekty/homework-plej-pl/sass/style.scss */
   .register-form .form-accepted .main-title {
     margin-top: 15px auto 50px auto; }
 

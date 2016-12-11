@@ -84,12 +84,16 @@ body{
       width: 90%;
       border: none;
       border-bottom: 1px solid #fff;
-      margin: 32px 0 25px 10px;
-      padding: 0 15px;
+      margin: 25px 0 25px 10px;
+      padding: 10px 15px;
       background-color: transparent;
       box-sizing: border-box;
       &:focus {
         outline: none;
+        color: black;
+        background-color: white;
+        border-bottom: 1px solid red;
+
       }
     }
   }
